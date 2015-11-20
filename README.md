@@ -6,6 +6,8 @@ Vagrant provisioning with shell script for Ruby >= 2.2.x
   * Vagrant >= 1.7.4
 
 ##### How to use
+  * git clone
+  * vagrant up 
 
 ##### What will be installed/configured :
   * MySQL 5.6
