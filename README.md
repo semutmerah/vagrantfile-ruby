@@ -9,6 +9,9 @@ Vagrant provisioning with shell script for Ruby >= 2.2.x
   * git clone
   * You can check the Vagrantfile first and make change there according to your own configuration
   * run command: vagrant up 
+  * After provisioning complete, you can connect to your box with command: vagrant ssh
+  * If you want to shutdown the vagrant box, use command: vagrant suspend, then followed by vagrant halt
+  * Please refer to [vagrant documentation](https://docs.vagrantup.com/v2/) for another options.
 
 ##### What will be installed/configured :
   * MySQL 5.6
@@ -24,4 +27,3 @@ Vagrant provisioning with shell script for Ruby >= 2.2.x
   * Timezone to Asia/Jakarta
   * Locale set to en_US.UTF-8
   * Gem installed : sass, bundler, mysql2, rails
-
