@@ -7,6 +7,7 @@ Vagrant provisioning with shell script for Ruby >= 2.2.x
 
 ##### How to use
   * git clone
+  * You can check the Vagrantfile first and make change there accordance to your own configuration
   * vagrant up 
 
 ##### What will be installed/configured :
