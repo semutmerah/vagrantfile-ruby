@@ -26,5 +26,6 @@ Vagrant.configure(2) do |config|
   # You can uncomment and change sync_folder configuration below in accordance to your own configuration, first_arg is your local directory, second_arg is your guest directory, third_arg is optional
   # config.vm.synced_folder "/home/semutmerah/Project-ruby", "/var/www", :mount_options => ["dmode=755", "fmode=644"], owner: "vagrant", group: "vagrant"
 
+  # The :privileged argument is to make sure that shell script is running under vagrant user, not root (for the RVM purpose)
   config.vm.provision :shell, :path => "setup.sh", :privileged => false
 end
